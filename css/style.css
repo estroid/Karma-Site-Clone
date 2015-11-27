@@ -1,0 +1,8 @@
+/*Remove background-color and chocolate borders after everything is in proper place*/
+
+body{
+	background-color: LightGray;
+}
+div{
+	border: 1px solid Chocolate;
+}
