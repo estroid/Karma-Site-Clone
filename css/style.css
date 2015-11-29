@@ -30,8 +30,8 @@ body {
   text-align: center;
 }
 
-/* Learn More button */
-.big-button a:hover {
+/* Learn More button --how to make hover?*/
+.big-button {
   text-shadow: none;
   border-style: none;
   border-radius: 4px;
@@ -108,3 +108,20 @@ a {
 	color: #fff;
 	text-align: center;
 }
+
+/* Everyone needs a little Karma section */
+.devices {
+  width: 33.3333333%;
+  display: inline-block;
+/*styles to assist with de-bugging*/
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+  font-size: 16px;
+}
+
+.img .devices {
+  width: 127px;
+  height: 127px;
+}
+
