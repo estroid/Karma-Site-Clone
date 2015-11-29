@@ -110,7 +110,7 @@ a {
 }
 
 /* Everyone needs a little Karma section */
-.devices {
+.cases .devices {
   width: 33.3333333%;
   display: inline-block;
 /*styles to assist with de-bugging*/
