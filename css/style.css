@@ -1,19 +1,110 @@
 /*Remove background-color and chocolate borders after everything is in proper place*/
 
-body{
-	background-color: LightGray;
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
 }
-div{
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: LightGray;
+	font-family: 'Roboto', sans serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+
+/* Learn More button */
+.big-button a:hover {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding 16px 26px;
+  line-height: 1.33;
+  width: 155px;
+  height: 53px;
+  background-color: #f15a29;
+  border-color: #f15a29;;
+  font-size: 1.125rem;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Remove background-color and chocolate borders after everything is in proper place*/
+div {
 	border: 1px solid Chocolate;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* Navigation Section */
 
-.top-navigation{
-	background-color: #FFF;
+.top-navigation {
+	background-color: #fff;
 }
+
 .top-navigation > .content{
+	margin: 0 auto;
 	width: 970px;
 	height: 70px;
-	margin: 0 auto;	
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .logo {
+	margin: 15px 0 0 15px;
+	display: inline-block;
+	position: absolute;
+}
+
+.top-navigation .links {
+	margin-left: 400px;
+	display: inline-block;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+	color: #838994;
+}
+
+.top-navigation .links li:hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.header-info {
+	position: relative;
+	color: #fff;
+	text-align: center;
 }
