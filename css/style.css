@@ -9,6 +9,10 @@ html {
 	box-sizing: inherit;
 }
 
+.content {
+  text-align: center;
+}
+
 body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans serif;
@@ -17,6 +21,61 @@ body {
 	letter-spacing: 0.03em;
 }
 
+/* Navigation Section */
+/* ADD A STICKY NAVIGATION */
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content{
+  margin: 0 auto;
+  width: 970px;
+  height: 70px;
+}
+
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+/* Karma logo */
+.top-navigation .logo {
+  margin: 15px 0 0 15px;
+  display: inline-block;
+  position: absolute;
+}
+
+.top-navigation .links {
+  margin-left: 400px;
+  display: inline-block;
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+  color: #838994;
+}
+
+.top-navigation .links li:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  padding: 11px;
+}
+
+.header-info {
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+/* Introducing Karma section */
 .introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
@@ -28,6 +87,11 @@ body {
   font-weight: 100;
   color: white;
   text-align: center;
+}
+
+.introduction .content h1 {
+  margin-top: 200px;
+  font-size: 45px;
 }
 
 /* Learn More button --how to make hover?*/
@@ -56,73 +120,52 @@ a {
 	text-decoration: none;
 }
 
-/* Navigation Section */
-
-.top-navigation {
-	background-color: #fff;
-}
-
-.top-navigation > .content{
-	margin: 0 auto;
-	width: 970px;
-	height: 70px;
-}
-
-.top-navigation .links .active {
-	color: #4c5058;
-	font-weight: 500;
-}
-
-.top-navigation .logo {
-	margin: 15px 0 0 15px;
-	display: inline-block;
-	position: absolute;
-}
-
-.top-navigation .links {
-	margin-left: 400px;
-	display: inline-block;
-	float: right;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
-}
-
-.top-navigation .links li {
-	color: #838994;
-}
-
-.top-navigation .links li:hover {
-	color: #333333;
-	cursor: pointer;
-}
-
-.top-navigation .links li {
-	display: inline-block;
-	padding: 10px;
-}
-
-.header-info {
-	position: relative;
-	color: #fff;
-	text-align: center;
-}
 
 /* Everyone needs a little Karma section */
 .cases .devices {
-  width: 33.3333333%;
+  width: 33%;
   display: inline-block;
 /*styles to assist with de-bugging*/
   border: 1px solid black;
   box-sizing: border-box;
-  height: 4em;
   font-size: 16px;
+  text-align: center;
 }
 
-.img .devices {
+.content h2 {
+  text-align: center;
+  color: black;
+}
+
+/* Device Icons */
+.devices img {
   width: 127px;
   height: 127px;
+  display: inline-block;
+}
+
+
+/* Social Media Icons */
+.social .icons > li {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+ /* margin: 1.25rem 5px;*/
+  border: 1px solid #eaebec;
+  padding: 10px;
+  text-align: center;
+}
+
+.social .fa-twitter {
+  color: #55acee;
+}
+
+.social .fa-facebook {
+   color: #4c66a4;
+}
+.social .fa-instagram {
+  color: #3f729b;
 }
 
 
