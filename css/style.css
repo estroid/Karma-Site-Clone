@@ -11,7 +11,7 @@ html {
 
 .content {
   text-align: center;
-  padding: 0 0.938rem;
+  padding: 0px 15px 0px 15px;
   margin: 0 auto;
   min-width: 37.5rem;
 }
@@ -31,9 +31,12 @@ ul {
 
 /* Navigation Section */
 
-/* ADD A STICKY NAVIGATION--FORTHCOMING */
+
 .top-navigation {
   background-color: #fff;
+/* How to create a sticky nav in CSS */
+  position: fixed;
+  width: 100%;
 }
 
 .top-navigation > .content{
@@ -180,7 +183,7 @@ a {
   color: black;
 }
 
-/* Device Icons */
+/* Footer device Icons */
 .devices img {
   width: 127px;
   height: 127px;
@@ -189,6 +192,9 @@ a {
 
 .social {
   text-align: center;
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
 }
 
 .social hr {
