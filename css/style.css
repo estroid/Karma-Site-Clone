@@ -11,26 +11,30 @@ html {
 
 .content {
   text-align: center;
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
 }
 
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 	font-family: 'Roboto', sans serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 }
 
+/* Since unordered lists have default left padding of 40, made them all 0 so the social media icons wouldn't be off center */
+ul {
+  padding-left: 0;
+}
+
 /* Navigation Section */
-/* ADD A STICKY NAVIGATION!!!! */
+
+/* ADD A STICKY NAVIGATION--FORTHCOMING */
 .top-navigation {
   background-color: #fff;
 }
-
-/* Not sure why this css styling below breaks the site */
-/*.top-navigation .content .links li.active {
-    color: #4c5058;
-    font-weight: 500;*/
 
 .top-navigation > .content{
   margin: 0 auto;
@@ -48,6 +52,7 @@ body {
   margin: 15px 0 0 15px;
   display: inline-block;
   position: absolute;
+  width: 26px;
 }
 
 .top-navigation .links {
@@ -55,7 +60,7 @@ body {
   display: inline-block;
   float: right;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   margin-top: 15px;
   -webkit-font-smoothing: antialiased;
 }
@@ -87,31 +92,29 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  font-weight: 100;
-  color: white;
-  text-align: center;
 }
 
-/* Introduction Karma h1 text */
+/* "Introduction Karma" h1 text */
 .introduction .content h1 {
-  margin-top: 250px;
+  margin-top: 0px;
   margin-bottom: 15px;
   font-size: 50px;
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 250px;
 }
 
-.introduction h3 {
-  font-size: 1.44em;
+/* "Bring WiFI...you go" */
+.introduction .content h3 {
   margin-top: 0.5em;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 25px;
+  font-weight: 300;
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
-/* Learn More button --how to make hover?*/
+/* Learn More button */
 button {
   text-shadow: none;
   border-style: none;
@@ -128,25 +131,48 @@ button {
   margin: 0 auto;
 }
 
-/*Remove background-color and chocolate borders after everything is in proper place*/
-div {
-	border: 1px solid Chocolate;
+/* Hover for "Learn More" button */
+button:hover {
+  background-color: #CF3D0E;
 }
 
+/*Remove background-color and chocolate borders after everything is in proper place*/
+/*div {
+	border: 1px solid Chocolate;
+}
+*/
 a {
 	text-decoration: none;
 }
-
 
 /* Everyone needs a little Karma section */
 .cases .devices {
   width: 33%;
   display: inline-block;
 /*styles to assist with de-bugging*/
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   box-sizing: border-box;
   font-size: 16px;
   text-align: center;
+}
+
+.cases .content {
+  margin: 60px;
+  width: auto;
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  color: black;
+  font-size: 1.563rem;
+
+}
+
+/* How to determine rem and em size? This was pasted from dev tools */
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
 }
 
 .content h2 {
@@ -161,8 +187,31 @@ a {
   display: inline-block;
 }
 
+.social {
+  text-align: center;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+  display: block;
+  width: 970px;
+/* Ask about below CSS for horizontal rule */
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+}
 
 /* Social Media Icons */
+
+.social h5 {
+  color: black;
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+}
 
 .social .icons > li {
   border-radius: 50%;
@@ -190,6 +239,8 @@ a {
 .social .copyright {
   text-align: center;
   color: #838994;
+  font-size: .9rem;
+  font-weight: 300;
 }
 
 
