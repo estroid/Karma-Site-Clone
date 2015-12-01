@@ -22,10 +22,15 @@ body {
 }
 
 /* Navigation Section */
-/* ADD A STICKY NAVIGATION */
+/* ADD A STICKY NAVIGATION!!!! */
 .top-navigation {
   background-color: #fff;
 }
+
+/* Not sure why this css styling below breaks the site */
+/*.top-navigation .content .links li.active {
+    color: #4c5058;
+    font-weight: 500;*/
 
 .top-navigation > .content{
   margin: 0 auto;
@@ -89,13 +94,25 @@ body {
   text-align: center;
 }
 
+/* Introduction Karma h1 text */
 .introduction .content h1 {
-  margin-top: 200px;
-  font-size: 45px;
+  margin-top: 250px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.introduction h3 {
+  font-size: 1.44em;
+  margin-top: 0.5em;
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Learn More button --how to make hover?*/
-.big-button {
+button {
   text-shadow: none;
   border-style: none;
   border-radius: 4px;
@@ -146,6 +163,7 @@ a {
 
 
 /* Social Media Icons */
+
 .social .icons > li {
   border-radius: 50%;
   width: 2.5rem;
@@ -166,6 +184,12 @@ a {
 }
 .social .fa-instagram {
   color: #3f729b;
+}
+
+/* Copyright */
+.social .copyright {
+  text-align: center;
+  color: #838994;
 }
 
 
