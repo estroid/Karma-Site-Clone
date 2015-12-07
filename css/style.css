@@ -10,10 +10,10 @@ html {
 }
 
 .content {
-  text-align: center;
-  padding: 0px 15px 0px 15px;
-  margin: 0 auto;
-  min-width: 37.5rem;
+	text-align: center;
+	padding: 0px 15px 0px 15px;
+	margin: 0 auto;
+	min-width: 37.5rem;
 }
 
 body {
@@ -26,69 +26,69 @@ body {
 
 /* Since unordered lists have default left padding of 40, made them all 0 so the social media icons wouldn't be off center */
 ul {
-  padding-left: 0;
+	padding-left: 0;
 }
 
 /* Navigation Section */
 
 
 .top-navigation {
-  background-color: #fff;
+	background-color: #fff;
 /* How to create a sticky nav in CSS */
-  position: fixed;
-  width: 100%;
-  /* Visible bottom border */
-  border-bottom: 1px solid #DDD;
-  z-index: 9999;
+	position: fixed;
+	width: 100%;
+/* Visible bottom border */
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 
 .top-navigation > .content{
-  margin: 0 auto;
-  width: 970px;
-  height: 70px;
+	margin: 0 auto;
+	width: 970px;
+	height: 70px;
 }
 
 .top-navigation .links .active {
-  color: #4c5058;
-  font-weight: 500;
+	color: #4c5058;
+	font-weight: 500;
 }
 
 /* Karma logo */
 .top-navigation .logo {
-  margin: 15px 0 0 15px;
-  display: inline-block;
-  position: absolute;
-  width: 26px;
+	margin: 15px 0 0 15px;
+	display: inline-block;
+	position: absolute;
+	width: 26px;
 }
 
 .top-navigation .links {
-  margin-left: 400px;
-  display: inline-block;
-  float: right;
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  margin-top: 15px;
-  -webkit-font-smoothing: antialiased;
+	margin-left: 400px;
+	display: inline-block;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin-top: 15px;
+	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li {
-  color: #838994;
+	color: #838994;
 }
 
 .top-navigation .links li:hover {
-  color: #333333;
-  cursor: pointer;
+	color: #333333;
+	cursor: pointer;
 }
 
 .top-navigation .links li {
-  display: inline-block;
-  padding: 11px;
+	display: inline-block;
+	padding: 11px;
 }
 
 .header-info {
-  position: relative;
-  color: #fff;
-  text-align: center;
+	position: relative;
+	color: #fff;
+	text-align: center;
 }
 
 /* Introducing Karma section */
@@ -102,44 +102,44 @@ ul {
 
 /* "Introduction Karma" h1 text */
 .introduction .content h1 {
-  margin-top: 0px;
-  margin-bottom: 15px;
-  font-size: 50px;
-  font-weight: 100;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  padding-top: 250px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding-top: 250px;
 }
 
 /* "Bring WiFI...you go" */
 .introduction .content h3 {
-  margin-top: 0.5em;
-  font-size: 25px;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+	margin-top: 0.5em;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 
 /* Learn More button */
 button {
-  text-shadow: none;
-  border-style: none;
-  border-radius: 4px;
-  padding 16px 26px;
-  line-height: 1.33;
-  width: 155px;
-  height: 53px;
-  background-color: #f15a29;
-  border-color: #f15a29;;
-  font-size: 1.125rem;
-  color: white;
-  display: block;
-  margin: 0 auto;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding 16px 26px;
+	line-height: 1.33;
+	width: 155px;
+	height: 53px;
+	background-color: #f15a29;
+	border-color: #f15a29;;
+	font-size: 1.125rem;
+	color: white;
+	display: block;
+	margin: 0 auto;
 }
 
 /* Hover for "Learn More" button */
 button:hover {
-  background-color: #CF3D0E;
+	background-color: #CF3D0E;
 }
 
 /*Remove background-color and chocolate borders after everything is in proper place*/
@@ -153,108 +153,108 @@ a {
 
 /* Everyone needs a little Karma section */
 .cases .devices {
-  width: 33%;
-  display: inline-block;
+	width: 33%;
+	display: inline-block;
 /*styles to assist with de-bugging*/
 /*  border: 1px solid black;*/
   box-sizing: border-box;
-  font-size: 16px;
-  text-align: center;
+	font-size: 16px;
+	text-align: center;
 }
 
 .cases .content {
-  margin: 60px;
-  width: auto;
+	margin: 60px;
+	width: auto;
 }
 
 .cases .devices h3 {
-  font-weight: 400;
-  color: black;
-  font-size: 1.563rem;
+	font-weight: 400;
+	color: black;
+	font-size: 1.563rem;
 
 }
 
 /* How to determine rem and em size? This was pasted from dev tools */
 .cases h2 {
-    font-size: 2.75rem;
-    margin: 1.625rem 0 3.125rem;
-    font-weight: 300;
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
 }
 
 .content h2 {
-  text-align: center;
-  color: black;
+	text-align: center;
+	color: black;
 }
 
 /* Footer device Icons */
 
 .devices img {
-  width: 127px;
-  height: 127px;
-  display: inline-block;
+	width: 127px;
+	height: 127px;
+	display: inline-block;
 }
 
 .social {
-  text-align: center;
-  background-color: #fff;
-  overflow: auto;
-  padding-bottom: 9.375rem;
+	text-align: center;
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
 }
 
 .social hr {
-  border: 0;
-  border-top: 1px solid #eaebec;
-  margin: 1.313rem 0;
-  display: block;
-  width: 970px;
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+	display: block;
+	width: 970px;
 /* Ask about below CSS for horizontal rule */
-  -webkit-margin-before: 0.5em;
-  -webkit-margin-after: 0.5em;
-  -webkit-margin-start: auto;
-  -webkit-margin-end: auto;
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
 }
 
 /* Social Media Icons */
 
 .social h5 {
-  color: black;
-  display: block;
-  font-size: 16px;
-  font-weight: normal;
+	color: black;
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
 }
 
 .social .icons > li:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .social .icons > li {
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: inline-block;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
  /* margin: 1.25rem 5px;*/
-  border: 1px solid #eaebec;
-  padding: 10px;
-  text-align: center;
+	border: 1px solid #eaebec;
+	padding: 10px;
+	text-align: center;
 }
 
 .social .fa-twitter {
-  color: #55acee;
+	color: #55acee;
 }
 
 .social .fa-facebook {
-   color: #4c66a4;
+	color: #4c66a4;
 }
 .social .fa-instagram {
-  color: #3f729b;
+	color: #3f729b;
 }
 
 /* Copyright */
 .social .copyright {
-  text-align: center;
-  color: #838994;
-  font-size: .9rem;
-  font-weight: 300;
+	text-align: center;
+	color: #838994;
+	font-size: .9rem;
+	font-weight: 300;
 }
 
 
